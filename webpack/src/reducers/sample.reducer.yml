@@ -1,0 +1,14 @@
+---
+
+scope: scope 
+
+init:
+    variable: initValue
+
+switches:
+
+    actionName: doSomething
+
+    actionName:
+        !payload
+            can_access_action_state_and_util
